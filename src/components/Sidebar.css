@@ -1,0 +1,123 @@
+/* Sidebar container styling */
+.sidebar {
+  width: 250px;
+  background-color: #eaf3fb;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* User info styling */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* View toggle section styling */
+.view-toggle {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.view-toggle p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Container for view buttons */
+.view-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Toggle button styling */
+.toggle-button {
+  background-color: #e7e7e7;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease, color 0.3s ease;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.toggle-button.active {
+  background-color: #d3e0ea;
+  color: #34c759;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-button:hover {
+  background-color: #d3d3d3;
+  transform: scale(1.05);
+}
+
+.toggle-button:active {
+  transform: scale(0.95);
+}
+
+/* Feedback section styling */
+.feedback {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.feedback-button {
+  background-color: #34c759;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.feedback-button:hover {
+  background-color: #28a745;
+}
+
+.feedback-button:active {
+  transform: scale(0.95);
+}
